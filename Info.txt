@@ -1,0 +1,26 @@
+La idea del proyecto consiste en el desarrollo de una aplicación o página web orientada al intercambio de videojuegos entre usuarios. El objetivo principal es permitir que las personas puedan ofrecer aquellos videojuegos que ya no utilizan o no desean, y obtener otros a cambio mediante un sistema de intercambio directo entre particulares.
+
+El funcionamiento general de la aplicación es sencillo e intuitivo. En primer lugar, el usuario debe registrarse en la plataforma para poder acceder a sus funcionalidades. Una vez dentro, podrá añadir a su perfil los videojuegos que desea intercambiar, proporcionando información relevante como el título, la plataforma y su estado. Estos videojuegos pasarán a formar parte de un catálogo visible para el resto de usuarios.
+
+La aplicación permitirá consultar los videojuegos disponibles de otros usuarios, así como buscar de forma específica aquellos títulos en los que se tenga interés mediante un sistema de búsqueda. Además, el usuario podrá visualizar qué personas están interesadas en los videojuegos que ha publicado previamente.
+
+Cuando un usuario encuentre un videojuego de su interés, podrá enviar una solicitud de intercambio al propietario del mismo. A través de un sistema de chat integrado, los usuarios podrán comunicarse entre sí para negociar el intercambio, incluyendo la posibilidad de ofrecer otros videojuegos que no estén previamente publicados en la plataforma.
+
+Una vez enviada la solicitud, el usuario receptor podrá aceptar o rechazar la propuesta. En caso de aceptación, el intercambio se llevará a cabo y el estado de los videojuegos implicados pasará a “intercambiado”, quedando registrados dentro del sistema.
+
+La aplicación manejará diferentes tipos de información necesarios para su correcto funcionamiento. Por un lado, los datos de los usuarios, como el nombre y el correo electrónico. Por otro, la información de los videojuegos, que incluirá el título, la plataforma y su estado dentro del sistema. Finalmente, se gestionarán los intercambios entre usuarios, los cuales podrán encontrarse en distintos estados: pendiente, aceptado o rechazado.
+
+En cuanto a los estados del sistema, cada videojuego podrá encontrarse en uno de los siguientes: disponible, en intercambio o intercambiado. De igual forma, cada solicitud de intercambio podrá estar en estado pendiente, aceptado o rechazado, dependiendo de la respuesta del usuario receptor.
+
+El sistema también contará con una serie de reglas que garantizan su correcto uso. No se permitirá intercambiar un videojuego que ya haya sido marcado como intercambiado. Además, únicamente los usuarios registrados podrán realizar propuestas de intercambio, y no será posible que un usuario realice un intercambio consigo mismo.
+
+Respecto a la interfaz de la aplicación, esta estará compuesta por varias pantallas principales que facilitarán la navegación del usuario. Entre ellas se incluyen una pantalla de inicio de sesión y registro, una página principal con el listado de videojuegos disponibles, una sección dedicada a “mis juegos”, donde el usuario podrá gestionar sus propios videojuegos, y otra sección de “mis intercambios”, en la que podrá consultar el estado de sus solicitudes.
+
+Como posibles mejoras futuras, se contempla la incorporación de un sistema de valoraciones entre usuarios, la mejora del chat interno para facilitar la comunicación, y la implementación de filtros de búsqueda más avanzados que permitan encontrar videojuegos de forma más precisa.
+
+En conjunto, este sistema busca facilitar el acceso a nuevos videojuegos sin necesidad de realizar compras, evitar la acumulación de juegos sin uso y fomentar la creación de una comunidad de intercambio sencilla, accesible y eficiente.
+
+
+
+
+
