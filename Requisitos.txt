@@ -1,0 +1,26 @@
+Los requisitos funcionales del sistema son:
+
+RF1. El sistema debe permitir el registro de usuarios.
+RF2. El sistema debe permitir el inicio de sesión de usuarios.
+RF3. El sistema debe permitir añadir videojuegos al perfil del usuario.
+RF4. El sistema debe permitir editar la información de los videojuegos.
+RF5. El sistema debe permitir eliminar videojuegos del perfil.
+RF6. El sistema debe mostrar un catálogo de videojuegos disponibles.
+RF7. El sistema debe permitir buscar videojuegos por nombre o plataforma.
+RF8. El sistema debe permitir enviar solicitudes de intercambio.
+RF9. El sistema debe permitir aceptar solicitudes de intercambio.
+RF10. El sistema debe permitir rechazar solicitudes de intercambio.
+RF11. El sistema debe actualizar el estado de los videojuegos (disponible, en intercambio, intercambiado).
+RF12. El sistema debe actualizar el estado de los intercambios (pendiente, aceptado, rechazado).
+RF13. El sistema debe permitir la comunicación entre usuarios mediante chat.
+RF14. El sistema debe permitir visualizar los usuarios interesados en un videojuego.
+
+Los requisitos no funcionales del sistema son:
+
+RNF1. La aplicación debe ser fácil de usar e intuitiva.
+RNF2. El sistema debe ofrecer tiempos de respuesta rápidos.
+RNF3. El sistema debe garantizar la seguridad de los datos de los usuarios.
+RNF4. La aplicación debe estar disponible para su uso de forma continua.
+RNF5. El sistema debe ser escalable ante el aumento de usuarios.
+RNF6. El sistema debe ser mantenible y permitir modificaciones futuras.
+RNF7. La aplicación debe ser compatible con distintos dispositivos y navegadores.
