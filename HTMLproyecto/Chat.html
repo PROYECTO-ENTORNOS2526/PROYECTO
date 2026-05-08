@@ -1,49 +1,111 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
+
     <meta charset="UTF-8">
-    <title>Chat</title>
-    <link rel="stylesheet" href="Chat.css">
+
+    <title>Chat - I.D.V</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="Portada.css">
+
 </head>
 
 <body>
 
+<!-- DIFUMINADOS -->
+<div class="blur blur1"></div>
+<div class="blur blur2"></div>
+<div class="blur blur3"></div>
+
+<!-- HERO -->
 <div id="caja_1">
-    <img src="./img/mando.jpeg">
-</div>
 
-<div id="caja_2">
-    <h1>Chat</h1>
-</div>
+    <img src="./img/mando.jpeg" alt="chat">
 
-<div id="caja_3">
-    <ul id="ul1">
-        <li><a href="Portada.html">Inicio</a></li>
-        <li><a href="Login.html">Login</a></li>
-        <li><a href="Registro.html">Registro</a></li>
-        <li><a href="Juegos.html">Juegos</a></li>
-        <li><a href="Chat.html">Chat</a></li>
-    </ul>
-</div>
+    <div id="overlay">
 
-<div id="caja_4">
+        <h1>CHAT</h1>
 
-    <div class="caja_4_1">
-        <div class="caja_4_1_2">
-            <img class="img2" src="./img/5508181.png">
-        </div>
-        <div class="caja_4_1_2">
-            <p><b>Usuario1:</b> ¿Cambias FIFA?</p>
-            <p><b>Usuario2:</b> Sí, por GTA</p><br>
-            <input type="text" placeholder="Mensaje"><br><br>
-            <button>Enviar</button>
-        </div>
+        <p>Conecta con jugadores en tiempo real</p>
+
     </div>
 
 </div>
 
+<!-- TITULO -->
+<div id="caja_2">
+
+    <h1>Comunidad I.D.V en vivo</h1>
+
+</div>
+
+<!-- MENU -->
+<div id="caja_3">
+
+    <ul id="ul1">
+
+        <li><a href="Portada.html">Inicio</a></li>
+        <li><a href="Login.html">Login</a></li>
+        <li><a href="Registro.html">Registro</a></li>
+        <li><a href="Juegos.html">Videojuegos</a></li>
+        <li><a href="Gestion.html">Mis juegos</a></li>
+        <li><a href="Chat.html">Chat</a></li>
+
+    </ul>
+
+</div>
+
+<!-- CONTENIDO -->
+<div id="caja_4">
+
+    <div class="caja_4_1">
+
+        <!-- LADO IZQUIERDO -->
+        <div class="caja_4_1_2">
+
+            <img class="img2" src="./img/Captura de pantalla 2026-05-08 101320.png" alt="chat">
+
+        </div>
+
+        <!-- CHAT -->
+        <div class="caja_4_1_2">
+
+            <p class="p1"><b>CHAT GLOBAL</b></p>
+
+            <!-- MENSAJES -->
+            <div style="background: rgba(255,255,255,0.05); padding:15px; border-radius:12px; margin-bottom:20px;">
+
+                <p class="p2">
+                    <b style="color:#38bdf8;">Usuario1:</b> ¿Alguien cambia FIFA?<br><br>
+
+                    <b style="color:#a855f7;">Usuario2:</b> Yo lo cambio por GTA V.<br><br>
+
+                    <b style="color:#22c55e;">Usuario3:</b> Busco Minecraft para PlayStation.
+                </p>
+
+            </div>
+
+            <!-- INPUT -->
+            <input type="text" placeholder="Escribe un mensaje...">
+
+            <br><br>
+
+            <button class="btn-main">Enviar</button>
+
+        </div>
+
+    </div>
+
+</div>
+
+<!-- FOOTER -->
 <div id="caja_5">
-    <p>© 2025 I.D.V</p>
+
+    <p>© 2025 I.D.V - Intercambio de Videojuegos</p>
+
 </div>
 
 </body>
