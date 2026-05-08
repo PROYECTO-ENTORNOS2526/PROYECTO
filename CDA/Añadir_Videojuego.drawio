@@ -1,0 +1,40 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="9rFrxjHsv39ioNeCtMc2">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="g9tyaFp8dBvykG6Gzehu-6" parent="1" style="shape=umlBoundary;whiteSpace=wrap;html=1;strokeWidth=2;shadow=1;snapToPoint=0;" value="AñadirVideojuegoUi" vertex="1">
+          <mxGeometry height="100" width="130" x="527" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="g9tyaFp8dBvykG6Gzehu-37" edge="1" parent="1" source="g9tyaFp8dBvykG6Gzehu-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;" target="g9tyaFp8dBvykG6Gzehu-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g9tyaFp8dBvykG6Gzehu-39" edge="1" parent="1" source="g9tyaFp8dBvykG6Gzehu-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;" target="g9tyaFp8dBvykG6Gzehu-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g9tyaFp8dBvykG6Gzehu-9" parent="1" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;strokeWidth=2;shadow=1;snapToPoint=0;" value="AñadirVideojuegoAction" vertex="1">
+          <mxGeometry height="130" width="135" x="697" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="g9tyaFp8dBvykG6Gzehu-10" edge="1" parent="1" source="g9tyaFp8dBvykG6Gzehu-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.004;entryY=0.54;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;shadow=1;snapToPoint=0;" target="g9tyaFp8dBvykG6Gzehu-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g9tyaFp8dBvykG6Gzehu-11" parent="1" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;rounded=0;strokeWidth=2;shadow=1;snapToPoint=0;" value="5-Añadir Videojuego" vertex="1">
+          <mxGeometry height="30" width="170" x="622" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="g9tyaFp8dBvykG6Gzehu-27" edge="1" parent="1" source="g9tyaFp8dBvykG6Gzehu-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="g9tyaFp8dBvykG6Gzehu-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g9tyaFp8dBvykG6Gzehu-28" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;strokeWidth=2;shadow=1;snapToPoint=0;" value="Usuario" vertex="1">
+          <mxGeometry height="60" width="30" x="340" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="g9tyaFp8dBvykG6Gzehu-35" parent="1" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;strokeWidth=2;shadow=1;snapToPoint=0;" value="UsuarioEntity5" vertex="1">
+          <mxGeometry height="80" width="88" x="970" y="445" as="geometry" />
+        </mxCell>
+        <mxCell id="g9tyaFp8dBvykG6Gzehu-36" parent="1" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;strokeWidth=2;shadow=1;snapToPoint=0;" value="Videojuego2" vertex="1">
+          <mxGeometry height="80" width="88" x="970" y="565" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,40 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="-nG3VY-uKzQWGfJ8KYed">
+    <mxGraphModel dx="1414" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="_gIxFctCQC-D7pVngezw-1" parent="1" style="shape=umlBoundary;whiteSpace=wrap;html=1;strokeWidth=2;shadow=1;snapToPoint=0;" value="VideojuegoUi" vertex="1">
+          <mxGeometry height="101.25" width="108" x="482" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="_gIxFctCQC-D7pVngezw-2" edge="1" parent="1" source="_gIxFctCQC-D7pVngezw-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;shadow=1;snapToPoint=0;" target="_gIxFctCQC-D7pVngezw-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_gIxFctCQC-D7pVngezw-3" edge="1" parent="1" source="_gIxFctCQC-D7pVngezw-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;shadow=1;snapToPoint=0;" target="_gIxFctCQC-D7pVngezw-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_gIxFctCQC-D7pVngezw-4" parent="1" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;strokeWidth=2;shadow=1;snapToPoint=0;" value="VideojuegoAction" vertex="1">
+          <mxGeometry height="87.5" width="108" x="634" y="322.5" as="geometry" />
+        </mxCell>
+        <mxCell id="_gIxFctCQC-D7pVngezw-5" edge="1" parent="1" source="_gIxFctCQC-D7pVngezw-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.004;entryY=0.54;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;shadow=1;snapToPoint=0;" target="_gIxFctCQC-D7pVngezw-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_gIxFctCQC-D7pVngezw-6" parent="1" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;strokeWidth=2;shadow=1;snapToPoint=0;" value="UsuarioEntity4" vertex="1">
+          <mxGeometry height="80" width="88" x="912" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="_gIxFctCQC-D7pVngezw-12" parent="1" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;rounded=0;strokeWidth=2;shadow=1;snapToPoint=0;" value="4-Gestion De Videojuegos" vertex="1">
+          <mxGeometry height="30" width="170" x="588" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="_gIxFctCQC-D7pVngezw-13" parent="1" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;strokeWidth=2;shadow=1;snapToPoint=0;" value="Videojuego" vertex="1">
+          <mxGeometry height="80" width="88" x="912" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="_gIxFctCQC-D7pVngezw-35" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;strokeWidth=2;shadow=1;snapToPoint=0;" value="Usuario" vertex="1">
+          <mxGeometry height="56.25" width="30" x="270" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="_gIxFctCQC-D7pVngezw-36" edge="1" parent="1" source="_gIxFctCQC-D7pVngezw-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.001;entryY=0.485;entryDx=0;entryDy=0;entryPerimeter=0;" target="_gIxFctCQC-D7pVngezw-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

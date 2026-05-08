@@ -1,0 +1,40 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="pPlyuVKSkMXvsTk2NbP9">
+    <mxGraphModel dx="1414" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="QTLAXzUsPRFTnuFswDOp-1" parent="1" style="shape=umlBoundary;whiteSpace=wrap;html=1;strokeWidth=2;shadow=1;snapToPoint=0;" value="CatalogoUi" vertex="1">
+          <mxGeometry height="100" width="130" x="537.5" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="QTLAXzUsPRFTnuFswDOp-2" edge="1" parent="1" source="QTLAXzUsPRFTnuFswDOp-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;shadow=1;snapToPoint=0;" target="QTLAXzUsPRFTnuFswDOp-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QTLAXzUsPRFTnuFswDOp-3" edge="1" parent="1" source="QTLAXzUsPRFTnuFswDOp-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;shadow=1;snapToPoint=0;" target="QTLAXzUsPRFTnuFswDOp-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QTLAXzUsPRFTnuFswDOp-4" parent="1" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;strokeWidth=2;shadow=1;snapToPoint=0;" value="CatalogoAction" vertex="1">
+          <mxGeometry height="130" width="135" x="707.5" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="QTLAXzUsPRFTnuFswDOp-5" edge="1" parent="1" source="QTLAXzUsPRFTnuFswDOp-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.004;entryY=0.54;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;shadow=1;snapToPoint=0;" target="QTLAXzUsPRFTnuFswDOp-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QTLAXzUsPRFTnuFswDOp-6" parent="1" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;strokeWidth=2;shadow=1;snapToPoint=0;" value="Categoria" vertex="1">
+          <mxGeometry height="80" width="88" x="982.5" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="QTLAXzUsPRFTnuFswDOp-7" parent="1" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;rounded=0;strokeWidth=2;shadow=1;snapToPoint=0;" value="10-Ver Catalogo&amp;nbsp;" vertex="1">
+          <mxGeometry height="30" width="170" x="690" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="QTLAXzUsPRFTnuFswDOp-8" parent="1" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;strokeWidth=2;shadow=1;snapToPoint=0;" value="Videojuego7" vertex="1">
+          <mxGeometry height="80" width="88" x="982.5" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="QTLAXzUsPRFTnuFswDOp-9" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;strokeWidth=2;shadow=1;snapToPoint=0;" value="Usuario" vertex="1">
+          <mxGeometry height="60" width="30" x="370" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="QTLAXzUsPRFTnuFswDOp-10" edge="1" parent="1" source="QTLAXzUsPRFTnuFswDOp-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.015;entryY=0.497;entryDx=0;entryDy=0;entryPerimeter=0;" target="QTLAXzUsPRFTnuFswDOp-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

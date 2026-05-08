@@ -1,0 +1,38 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="pfzYNUo-NFhPLudkjmR2">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="1qmdgXDP2rPi0IditHWc-1" parent="1" style="shape=umlBoundary;whiteSpace=wrap;html=1;strokeWidth=2;shadow=1;snapToPoint=0;" value="&amp;nbsp;AceptarIntercambioUi" vertex="1">
+          <mxGeometry height="100" width="162" x="598" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="1qmdgXDP2rPi0IditHWc-2" edge="1" parent="1" source="1qmdgXDP2rPi0IditHWc-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;shadow=1;snapToPoint=0;" target="1qmdgXDP2rPi0IditHWc-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1002" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1qmdgXDP2rPi0IditHWc-3" parent="1" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;strokeWidth=2;shadow=1;snapToPoint=0;" value="&amp;nbsp;AceptarIntercambioAction" vertex="1">
+          <mxGeometry height="130" width="158" x="800" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="1qmdgXDP2rPi0IditHWc-4" edge="1" parent="1" source="1qmdgXDP2rPi0IditHWc-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.004;entryY=0.54;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;shadow=1;snapToPoint=0;" target="1qmdgXDP2rPi0IditHWc-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1qmdgXDP2rPi0IditHWc-5" parent="1" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;strokeWidth=2;shadow=1;snapToPoint=0;" value="Intercambio3" vertex="1">
+          <mxGeometry height="95" width="100" x="1019" y="342.5" as="geometry" />
+        </mxCell>
+        <mxCell id="1qmdgXDP2rPi0IditHWc-6" parent="1" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;rounded=0;strokeWidth=2;shadow=1;snapToPoint=0;" value="15- Aceptar Intercambio" vertex="1">
+          <mxGeometry height="30" width="151" x="803.5" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="1qmdgXDP2rPi0IditHWc-7" edge="1" parent="1" source="1qmdgXDP2rPi0IditHWc-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="1qmdgXDP2rPi0IditHWc-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1qmdgXDP2rPi0IditHWc-8" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;strokeWidth=2;shadow=1;snapToPoint=0;" value="Usuario" vertex="1">
+          <mxGeometry height="60" width="30" x="420" y="360" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

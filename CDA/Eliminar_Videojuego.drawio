@@ -1,0 +1,38 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="ddQmNd_yBTbYfAfM9Dbe">
+    <mxGraphModel dx="1230" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="_x8N4AC-aFlbCwNn8Iv4-9" parent="1" style="shape=umlBoundary;whiteSpace=wrap;html=1;strokeWidth=2;shadow=1;snapToPoint=0;" value="EliminarVideojuegoUi" vertex="1">
+          <mxGeometry height="131" width="158.5" x="600.5" y="169.5" as="geometry" />
+        </mxCell>
+        <mxCell id="_x8N4AC-aFlbCwNn8Iv4-10" edge="1" parent="1" source="_x8N4AC-aFlbCwNn8Iv4-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;shadow=1;snapToPoint=0;" target="_x8N4AC-aFlbCwNn8Iv4-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1011.5" y="235" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_x8N4AC-aFlbCwNn8Iv4-11" parent="1" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;strokeWidth=2;shadow=1;snapToPoint=0;" value="EliminarVideojuegoAction" vertex="1">
+          <mxGeometry height="149" width="147" x="847.75" y="155" as="geometry" />
+        </mxCell>
+        <mxCell id="_x8N4AC-aFlbCwNn8Iv4-12" edge="1" parent="1" source="_x8N4AC-aFlbCwNn8Iv4-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.004;entryY=0.54;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;shadow=1;snapToPoint=0;" target="_x8N4AC-aFlbCwNn8Iv4-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_x8N4AC-aFlbCwNn8Iv4-13" parent="1" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;strokeWidth=2;shadow=1;snapToPoint=0;" value="Videojuego4" vertex="1">
+          <mxGeometry height="115.5" width="131.5" x="1059" y="177.25" as="geometry" />
+        </mxCell>
+        <mxCell id="_x8N4AC-aFlbCwNn8Iv4-14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="7-Eliminar Videojuego" vertex="1">
+          <mxGeometry height="30" width="144" x="762" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="_x8N4AC-aFlbCwNn8Iv4-15" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;strokeWidth=2;shadow=1;snapToPoint=0;" value="Usuario" vertex="1">
+          <mxGeometry height="60" width="30" x="440" y="205" as="geometry" />
+        </mxCell>
+        <mxCell id="_x8N4AC-aFlbCwNn8Iv4-16" edge="1" parent="1" source="_x8N4AC-aFlbCwNn8Iv4-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.011;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="_x8N4AC-aFlbCwNn8Iv4-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
