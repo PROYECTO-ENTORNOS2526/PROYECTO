@@ -1,0 +1,205 @@
+@startuml
+left to right direction
+skinparam packageStyle rectangle
+
+actor Usuario
+
+' =========================
+package "1. Login" {
+  boundary LoginUI
+  control LoginAction
+  entity UsuarioEntity
+
+  Usuario --> LoginUI
+  LoginUI --> LoginAction
+  LoginAction --> UsuarioEntity
+}
+
+' =========================
+package "2. Registrarse" {
+  boundary RegistroUI
+  control RegistroAction
+  entity UsuarioEntity2
+
+  Usuario --> RegistroUI
+  RegistroUI --> RegistroAction
+  RegistroAction --> UsuarioEntity2
+}
+
+' =========================
+package "3. Gestión de Cuentas" {
+  boundary CuentaUI
+  control CuentaAction
+  entity UsuarioEntity3
+
+  Usuario --> CuentaUI
+  CuentaUI --> CuentaAction
+  CuentaAction --> UsuarioEntity3
+}
+
+' =========================
+package "4. Gestión de Videojuegos" {
+  boundary VideojuegoUI
+  control VideojuegoAction
+  entity Videojuego
+  entity UsuarioEntity4
+
+  Usuario --> VideojuegoUI
+  VideojuegoUI --> VideojuegoAction
+  VideojuegoAction --> Videojuego
+  VideojuegoAction --> UsuarioEntity4
+}
+
+' =========================
+package "5. Añadir videojuego" {
+  boundary AñadirVideojuegoUI
+  control AñadirVideojuegoAction
+  entity Videojuego2
+  entity UsuarioEntity5
+
+  Usuario --> AñadirVideojuegoUI
+  AñadirVideojuegoUI --> AñadirVideojuegoAction
+  AñadirVideojuegoAction --> Videojuego2
+  AñadirVideojuegoAction --> UsuarioEntity5
+}
+
+' =========================
+package "6. Editar videojuego" {
+  boundary EditarVideojuegoUI
+  control EditarVideojuegoAction
+  entity Videojuego3
+
+  Usuario --> EditarVideojuegoUI
+  EditarVideojuegoUI --> EditarVideojuegoAction
+  EditarVideojuegoAction --> Videojuego3
+}
+
+' =========================
+package "7. Eliminar videojuego" {
+  boundary EliminarVideojuegoUI
+  control EliminarVideojuegoAction
+  entity Videojuego4
+
+  Usuario --> EliminarVideojuegoUI
+  EliminarVideojuegoUI --> EliminarVideojuegoAction
+  EliminarVideojuegoAction --> Videojuego4
+}
+
+' =========================
+package "8. Explorar videojuegos" {
+  boundary ExplorarUI
+  control ExplorarAction
+  entity Videojuego5
+  entity UsuarioEntity6
+
+  Usuario --> ExplorarUI
+  ExplorarUI --> ExplorarAction
+  ExplorarAction --> Videojuego5
+  ExplorarAction --> UsuarioEntity6
+}
+
+' =========================
+package "9. Buscar videojuegos" {
+  boundary BuscarUI
+  control BuscarAction
+  entity Videojuego6
+
+  Usuario --> BuscarUI
+  BuscarUI --> BuscarAction
+  BuscarAction --> Videojuego6
+}
+
+' =========================
+package "10. Ver catálogo" {
+  boundary CatalogoUI
+  control CatalogoAction
+  entity Videojuego7
+  entity Categoria
+
+  Usuario --> CatalogoUI
+  CatalogoUI --> CatalogoAction
+  CatalogoAction --> Videojuego7
+  CatalogoAction --> Categoria
+}
+
+' =========================
+package "11. Ver interesados" {
+  boundary InteresadosUI
+  control InteresadosAction
+  entity UsuarioEntity7
+  entity Videojuego8
+
+  Usuario --> InteresadosUI
+  InteresadosUI --> InteresadosAction
+  InteresadosAction --> UsuarioEntity7
+  InteresadosAction --> Videojuego8
+}
+
+' =========================
+package "12. Proponer intercambio" {
+  boundary ProponerIntercambioUI
+  control ProponerIntercambioAction
+  entity Intercambio
+  entity UsuarioEntity8
+  entity Videojuego9
+  entity Mensaje
+
+  Usuario --> ProponerIntercambioUI
+  ProponerIntercambioUI --> ProponerIntercambioAction
+  ProponerIntercambioAction --> Intercambio
+  ProponerIntercambioAction --> UsuarioEntity8
+  ProponerIntercambioAction --> Videojuego9
+  ProponerIntercambioAction --> Mensaje
+}
+
+' =========================
+package "13. Chat entre usuarios" {
+  boundary ChatUI
+  control ChatAction
+  entity Mensaje2
+  entity UsuarioEntity9
+
+  Usuario --> ChatUI
+  ChatUI --> ChatAction
+  ChatAction --> Mensaje2
+  ChatAction --> UsuarioEntity9
+}
+
+' =========================
+package "14. Ver intercambio" {
+  boundary VerIntercambioUI
+  control VerIntercambioAction
+  entity Intercambio2
+  entity UsuarioEntity10
+  entity Videojuego10
+
+  Usuario --> VerIntercambioUI
+  VerIntercambioUI --> VerIntercambioAction
+  VerIntercambioAction --> Intercambio2
+  VerIntercambioAction --> UsuarioEntity10
+  VerIntercambioAction --> Videojuego10
+}
+
+' =========================
+package "15. Aceptar intercambio" {
+  boundary AceptarIntercambioUI
+  control AceptarIntercambioAction
+  entity Intercambio3
+
+  Usuario --> AceptarIntercambioUI
+  AceptarIntercambioUI --> AceptarIntercambioAction
+  AceptarIntercambioAction --> Intercambio3
+}
+
+' =========================
+package "16. Rechazar intercambio" {
+  boundary RechazarIntercambioUI
+  control RechazarIntercambioAction
+  entity Intercambio4
+
+  Usuario --> RechazarIntercambioUI
+  RechazarIntercambioUI --> RechazarIntercambioAction
+  RechazarIntercambioAction --> Intercambio4
+}
+
+@enduml 
